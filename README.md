@@ -30,7 +30,6 @@ $request = array(
 $response = $Conekta->makePayment($request);
 
 print_r($response);
-
 ```
 
 #Credit Card Payments
