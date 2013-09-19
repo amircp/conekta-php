@@ -19,6 +19,7 @@ $Conekta = new Conekta($key);
 
 #OXXO Payments
 * Oxxo payment example:
+
 ```php
 $request = array(
 					'amount' => 90000,
@@ -58,8 +59,6 @@ $request = array
 $response = $Conekta->makePayment($request);
 print_r($response);
 ```
-
-
 
 #Bank Payment
 * Bank payment example:
