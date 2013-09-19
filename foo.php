@@ -4,7 +4,7 @@ Using Conekta Class
 */
 require_once("conekta.class.php");
 
-$key = ''
+$key = '';
 $Conekta = new Conekta($key); // Creando el objeto Conekta
 // binding request 
 /* OXXO Request */
