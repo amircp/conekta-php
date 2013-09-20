@@ -3,10 +3,12 @@
  *	
  *	@author: Amir Canto / http://www.twitter.com/amircp
  *	@date: September 19, 2013.
- *	@version: 1.0
+ *	@version: 1.1
  *	@class: 	Conekta
  *	@description: Conekta Class, get payments for your website! first version, very basic.
- *
+ *				  using Conekta 1.0 API
+ *  
+
 **/
 
 
@@ -30,7 +32,7 @@ class Conekta
 	{
 		if(empty($this->_apiKey)) return 0;
 		// Cabeceras HTTP extras para Conekta:
-		$headers = array('Accept: application/vnd.conekta-v0.2.0+json',
+		$headers = array('Accept: application/vnd.conekta-v0.1.0+json',
 						 'Content-type: application/json'
 					);
 
